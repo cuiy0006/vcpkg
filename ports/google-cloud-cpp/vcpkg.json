@@ -28,6 +28,13 @@
     "spanner",
     "storage"
   ],
+  "builtin-baseline": "9845848c2af843cdad92bd407cebd390b13db553",
+  "overrides": [
+    {
+      "name": "opentelemetry-cpp",
+      "version": "1.20.0"
+    }
+  ],
   "features": {
     "accessapproval": {
       "description": "Access Approval API C++ Client Library",

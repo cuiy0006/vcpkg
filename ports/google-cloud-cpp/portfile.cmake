@@ -63,6 +63,7 @@ vcpkg_cmake_configure(
         -DGOOGLE_CLOUD_CPP_ENABLE_EXAMPLES=OFF
         -DBUILD_TESTING=OFF
         -DGOOGLE_CLOUD_CPP_WITH_MOCKS=OFF
+        -DWITH_ABSEIL=ON
 )
 
 vcpkg_cmake_install()
