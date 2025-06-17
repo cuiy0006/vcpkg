@@ -1,0 +1,18 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "baseline": "610682975b5b9c9ae8486b5b0211d0f11cfabb6b",
+    "repository": "https://github.com/microsoft/vcpkg"
+  },
+  "registries": [
+    {
+      "$comment": "opentelemetry-cpp 1.2.0",
+      "kind": "git",
+      "repository": "https://github.com/microsoft/vcpkg",
+      "baseline": "9845848c2af843cdad92bd407cebd390b13db553",
+      "packages": [
+        "opentelemetry-cpp"
+      ]
+    }
+  ]
+}
